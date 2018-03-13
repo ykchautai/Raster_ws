@@ -6,11 +6,11 @@ Comprender algunos aspectos fundamentales del paradigma de rasterización.
 
 ## Tareas
 
-Emplee coordenadas baricéntricas para sobre un triángulo:
+Emplee coordenadas baricéntricas para:
 
-1. Rasterizar.
-2. Implementar un algoritmo de anti-aliasing.
-3. Hacer shading.
+1. Rasterizar un triángulo;
+2. Implementar un algoritmo de anti-aliasing de sus aristas; y,
+3. Hacer shading sobre su superficie.
 
 Implemente la función ```triangleRaster()``` del sketch adjunto para tal efecto, requiere la librería [frames](https://github.com/VisualComputing/framesjs/releases).
 
