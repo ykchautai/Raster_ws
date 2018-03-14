@@ -111,11 +111,11 @@ void keyPressed() {
     debug = !debug;
   if (key == '+') {
     n = n < 7 ? n+1 : 2;
-    frame.setScaling(1024/pow( 2, n));
+    frame.setScaling(width/pow( 2, n));
   }
   if (key == '-') {
     n = n >2 ? n-1 : 7;
-    frame.setScaling(1024/pow( 2, n));
+    frame.setScaling(width/pow( 2, n));
   }
   if (key == 'r')
     randomizeTriangle();
