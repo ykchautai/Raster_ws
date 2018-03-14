@@ -60,9 +60,8 @@ void draw() {
   popMatrix();
 }
 
-// implement this function to rasterize the triangle
-// coordinates are given in the frame coordinate
-// system which has a dimension of 2^n
+// Implement this function to rasterize the triangle.
+// Coordinates are given in the frame system which has a dimension of 2^n
 void triangleRaster() {
   // frame.coordinatesOf converts from world to frame
   // here we convert v1 to illustrate the idea
