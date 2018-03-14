@@ -7,7 +7,7 @@ Scene scene;
 Frame frame;
 Vector v1, v2, v3;
 // timing
-protected TimingTask spinningTask;
+TimingTask spinningTask;
 boolean yDirection;
 // scaling is a power of 2
 int n = 4;
