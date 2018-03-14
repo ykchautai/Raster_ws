@@ -34,8 +34,11 @@ void setup() {
   // example, to see how 3D spinning from the horizon
   // (no bias from above nor from below) induces movement
   // on the frame instance (the one used to represent
-  // onscreen pixels): upwards or backwards?
-  // Press ' ' to play it
+  // onscreen pixels): upwards or backwards (or to the left
+  // vs to the right)?
+  // Press ' ' to play it :)
+  // Press 'y' to change the spinning axes defined in the
+  // world system.
   spinningTask = new TimingTask() {
     public void execute() {
       spin();
