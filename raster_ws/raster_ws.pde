@@ -30,7 +30,12 @@ void setup() {
   scene.fitBallInterpolation();
 
   // not really needed here but create a spinning task
-  // just to illustrate some frame.timing features
+  // just to illustrate some frames.timing features. For
+  // example, to see how 3D spinning from the horizon
+  // (no bias from above nor from below) induces movement
+  // on the frame instance (the one used to represent
+  // onscreen pixels): upwards or backwards?
+  // Press ' ' to play it
   spinningTask = new TimingTask() {
     public void execute() {
       spin();
