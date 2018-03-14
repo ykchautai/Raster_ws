@@ -20,7 +20,7 @@ boolean debug = true;
 // 3. Use FX2D, JAVA2D, P2D or P3D
 String renderer = P3D;
 
-public void setup() {
+void setup() {
   //use 2^n to change the dimensions
   size(1024, 1024, renderer);
   scene = new Scene(this);
