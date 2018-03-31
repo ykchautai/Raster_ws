@@ -25,14 +25,6 @@ boolean shading = true;
 // 3. Use FX2D, JAVA2D, P2D or P3D
 String renderer = P3D;
 
-//Triangle coordinates x and y
-float v1x = 0.0;
-float v2x = 0.0;
-float v3x = 0.0;
-float v1y = 0.0;
-float v2y = 0.0;
-float v3y = 0.0;
-
 void setup() {
   //use 2^n to change the dimensions
   //frameRate(1);
